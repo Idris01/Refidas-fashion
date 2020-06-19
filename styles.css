@@ -1,0 +1,21 @@
+body{
+    background-color: darkorchid;
+}
+h1{
+    text-align: center;
+    padding: 10px;
+    background-color: darkgray;
+
+}
+nav li{
+    list-style-type: none;
+}
+#name1{
+    color: chocolate;
+}
+#name2{
+    color: cyan;
+}
+#name3{
+    color: darkgoldenrod;
+}
