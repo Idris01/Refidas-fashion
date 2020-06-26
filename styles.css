@@ -1,11 +1,20 @@
 body{
     background-color: darkorchid;
+    padding:10px;
+}
+main{
+	padding:10px;
 }
 h1{
     text-align: center;
     padding: 10px;
     background-color: darkgray;
 
+}
+nav{
+padding:5px;
+background-color:gray;
+width:100%;
 }
 nav li{
     list-style-type: none;
@@ -18,4 +27,29 @@ nav li{
 }
 #name3{
     color: darkgoldenrod;
+}
+.small-division{
+	background-color:grey;
+	min-height:30px;
+	text-align:center;
+}
+.small-division1{
+	background-color:rgb(171,166,154)
+}
+h2, h3, h4{
+	text-align:center;
+}
+
+@media (max-width: 499px){
+	h1::after{
+		content:" Glitz";
+		color:rgb(248,252,3);
+	}
+	
+}
+@media (min-width: 500px){
+	h1::after{
+		content:" Fashion Glitz";
+		color:rgb(248,252,3);
+	}
 }
